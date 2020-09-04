@@ -2,6 +2,7 @@
     height: 500px;
     background-size: cover;
     background-position: center;
+    background-image: url("../Hero/images/frenchBulldogPuppy.jpg");
     position: relative;
 }
   
