@@ -3,9 +3,11 @@ import "./style.css";
 
 const Footer = () => 
     <footer className="footer">
-        <div class="container">
+        <div className="container">
         <span>Puppy Love &copy;2020</span>
         </div>
     </footer>
 
 export default Footer;
+
+// created a life cycle method
