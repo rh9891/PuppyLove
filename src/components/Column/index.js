@@ -6,7 +6,13 @@ function Column(props) {
     .map((size) => "col-" + size)
     .join(" ");
 
-  return <div className={size} {...props} />;
+  return (
+    <div
+      className={size}
+      style={{ fontFamily: "Proxima Nova Soft" }}
+      {...props}
+    />
+  );
 }
 
 export default Column;
