@@ -2,13 +2,15 @@ import React from "react";
 import Button from "../Button";
 import "./style.css";
 
-function Card(props) {
+const Card = (props) => {
   return (
     <div
       className="card"
       style={{ backgroundImage: props.image ? `url(${props.image})` : "none" }}
     >
-      {!props.image && <i className="fas fa-spinner" aria-hidden="true" />}
+      {!props.image && (
+        <i className="fas fa-spinner fa-pulse" aria-hidden="true" />
+      )}
       <Button
         style={{ opacity: props.image ? 1 : 0 }}
         onClick={props.handleBtnClick}
@@ -21,6 +23,6 @@ function Card(props) {
       ></Button>
     </div>
   );
-}
+};
 
 export default Card;
