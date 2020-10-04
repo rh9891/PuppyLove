@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react";
 import Card from "../Card";
+import API from "../../utils/API";
 
 class Discover extends Component {
   state = {
@@ -7,8 +8,22 @@ class Discover extends Component {
     matchCount: 0,
   };
 
+  componentDidMount() {
+    this.loadNextDog();
+  }
+
   handleBtnClick = (event) => {
     console.log(event);
+  };
+
+  loadNextDog = () => {
+    API.getRandomDog()
+      .then((res) =>
+        this.setState({
+          image: res.data.message,
+        })
+      )
+      .catch((err) => console.log(err));
   };
 
   render() {
