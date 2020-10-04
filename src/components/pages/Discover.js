@@ -13,7 +13,7 @@ class Discover extends Component {
           Make New Friends
         </h1>
         <h3 className="text-center" style={{ fontFamily: "Proxima Nova Soft" }}>
-          Thumbs up if there are any pups that you'd like to meet.
+          Show some love if there are any pups that you'd like to meet.
         </h3>
         <h1 className="text-center" style={{ fontFamily: "Proxima Nova Soft" }}>
           Made friends with {this.state.matchCount} pups so far!
