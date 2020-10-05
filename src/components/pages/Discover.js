@@ -29,14 +29,20 @@ class Discover extends Component {
   render() {
     return (
       <Fragment>
-        <h1 className="text-center" style={{ fontFamily: "Proxima Nova Soft" }}>
+        <h1
+          className="text-center"
+          style={{ fontFamily: "Proxima Nova Soft", marginTop: "20px" }}
+        >
           Make New Friends
         </h1>
         <h3 className="text-center" style={{ fontFamily: "Proxima Nova Soft" }}>
           Show some love if there are any pups that you'd like to meet.
         </h3>
         <Card image={this.state.image} handleBtnClick={this.handleBtnClick} />
-        <h1 className="text-center" style={{ fontFamily: "Proxima Nova Soft" }}>
+        <h1
+          className="text-center"
+          style={{ fontFamily: "Proxima Nova Soft", marginBottom: "20px" }}
+        >
           Made friends with {this.state.matchCount} pups so far!
         </h1>
       </Fragment>
