@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Container from "../Container/";
 
 class Search extends Component {
   state = {
@@ -6,7 +7,18 @@ class Search extends Component {
     breeds: [],
     results: [],
   };
+
+  render() {
+    return (
+      <Container style={{ fontFamily: "Proxima Nova Soft", minHeight: "80%" }}>
+        <h1 className="text-center" style={{ fontFamily: "Proxima Nova Soft" }}>
+          Search By Breed
+        </h1>
+        <Form />
+        <Results />
+      </Container>
+    );
+  }
 }
-// {{ fontFamily: "Proxima Nova Soft" }}
 
 export default Search;
