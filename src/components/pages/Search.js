@@ -1,7 +1,12 @@
-import React from "react";
+import React, { Component } from "react";
 
-const Search = () => (
-  <h1 style={{ fontFamily: "Proxima Nova Soft" }}>Search</h1>
-);
+class Search extends Component {
+  state = {
+    search: "",
+    breeds: [],
+    results: [],
+  };
+}
+// {{ fontFamily: "Proxima Nova Soft" }}
 
 export default Search;
