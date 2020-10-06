@@ -21,6 +21,13 @@ const Form = (props) => (
         <option value={breed} key={breed} />
       ))}
     </datalist>
+    <button
+      type="submit"
+      onClick={props.handleFormSubmit}
+      className="btn btn-warning"
+    >
+      Search
+    </button>
   </form>
 );
 
