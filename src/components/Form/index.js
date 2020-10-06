@@ -9,12 +9,18 @@ const Form = (props) => (
         value={props.search}
         onChange={props.handleInputChange}
         name="breed"
+        list="breeds"
         type="text"
         className="form-control"
         placeholder="Search a dog breed..."
         id="breed"
       />
     </div>
+    <datalist id="breeds">
+      {props.breeds.map((breed) => (
+        <option value={breed} key={breed} />
+      ))}
+    </datalist>
   </form>
 );
 
