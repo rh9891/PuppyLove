@@ -4,7 +4,7 @@ const Container = (props) => (
   <div
     className={`container${props.fluid ? "-fluid" : ""}`}
     {...props}
-    style={{ fontFamily: "Proxima Nova Soft" }}
+    style={{ fontFamily: "Proxima Nova Soft", marginBottom: "80px" }}
   />
 );
 

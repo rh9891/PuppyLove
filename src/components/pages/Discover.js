@@ -61,9 +61,9 @@ class Discover extends Component {
         <Card image={this.state.image} handleBtnClick={this.handleBtnClick} />
         <h1
           className="text-center"
-          style={{ fontFamily: "Proxima Nova Soft", marginBottom: "20px" }}
+          style={{ fontFamily: "Proxima Nova Soft", marginBottom: "80px" }}
         >
-          Made friends with {this.state.matchCount} pups so far!
+          You have matched with {this.state.matchCount} pups so far!
         </h1>
       </Fragment>
     );

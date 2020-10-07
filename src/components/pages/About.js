@@ -5,7 +5,7 @@ import Row from "../Row";
 import Column from "../Column";
 
 const About = () => (
-  <div>
+  <div style={{ height: "100%" }}>
     <Hero>
       <h1 style={{ fontSize: "6em" }}>Puppy Love</h1>
       <h2 style={{ fontSize: "2em" }}>You deserve the best partner.</h2>
@@ -19,7 +19,7 @@ const About = () => (
       <Row>
         <Column
           size="md-12"
-          style={{ marginTop: "20px", marginBottom: "20px" }}
+          style={{ marginTop: "20px", marginBottom: "80px" }}
         >
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
