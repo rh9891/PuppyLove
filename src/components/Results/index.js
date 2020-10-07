@@ -2,13 +2,9 @@ import React from "react";
 import "./style.css";
 
 const Results = (props) => (
-  <div className="container">
+  <div id="results">
     {props.results.map((result) => (
-      <div key={result} className="card col-sm">
-        <div key={result} className="img-container">
-          <img className="img-responsive" alt="" key={result} src={result} />
-        </div>
-      </div>
+      <img id="results-image" key={result} alt="dog" src={result} />
     ))}
   </div>
 );

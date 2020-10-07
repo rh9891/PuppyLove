@@ -39,7 +39,10 @@ class Search extends Component {
   render() {
     return (
       <Container style={{ fontFamily: "Proxima Nova Soft", minHeight: "80%" }}>
-        <h1 className="text-center" style={{ fontFamily: "Proxima Nova Soft" }}>
+        <h1
+          className="text-center"
+          style={{ fontFamily: "Proxima Nova Soft", marginTop: "20px" }}
+        >
           Search By Breed
         </h1>
         <Alert
