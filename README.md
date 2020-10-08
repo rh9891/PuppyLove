@@ -18,11 +18,11 @@
 
 ## Description
 
-Puppy Love is a responsive, dynamic application
+Puppy Love is a responsive, dynamic social application that allows the user to discover new pups by sifting through numerous photos (by liking or disliking them) and, hopefully, make new friends through a "match".
 
-the application holds three routes. the about page is A static welcome screen for visitors to the application. This page displays a photo of a random dog retrieved from the [Dog Ceo API](https://dog.ceo/dog-api/). This page contains 2 clickable buttons: one for passing or "thumbs-downing" a dog, and one for picking or "thumbs-upping" a dog. When either button is clicked, a new dog image is loaded from the API. If you "thumbs up" a dog, there is a 1 in 5 chance that the dog likes you too, and the friends count goes up by 1. This Search page allows you to search the [Dog Ceo API](https://dog.ceo/dog-api/) for all dogs by breed. After a search is made, a list of all of the results appears underneath.
+Puppy Love holds three routes: About, Discover, and Search. The About page is a static welcome screen for visitors to the application. The Discover page displays a photo of a random dog and contains two clickable buttons: one for passing or "x-ing" a dog, and one for picking or "heart-ing" a dog. When either button is clicked, a new dog image is loaded. If a user "hearts" a dog, there is a chance that the dog likes them too and the count will go up by 1. The Search page allows users to search for all dogs by their breed. After a search is made, a list of all of the results appears underneath.
 
-Puppy Love is a React application that utilizes the Context API along with the useContext and useReducer hooks for state management. The application also utilizes the Dog Ceo API to display random dog images and search for additional dog images by breed.
+Puppy Love is a React application that utilizes Express routing, dynamic routing with react-router-dom and AJAX requests. Puppy Love utilizes the Dog Ceo API to display random dog images and allows the user to search for additional dog images by breed.
 
 ## User Story
 
@@ -42,7 +42,7 @@ THEN
 
 ## Preview of Puppy Love
 
-![Puppy Love Landing Page](assets/images/GithubFinderUserPage.png)
+![Puppy Love Landing Page]()
 
 The following animations demonstrate the complete application functionality:
 
