@@ -27,6 +27,7 @@ const Navbar = (props) => (
           About
         </Link>
       </li>
+
       <li
         className={
           window.location.pathname === "/" ||
@@ -43,6 +44,7 @@ const Navbar = (props) => (
           Discover
         </Link>
       </li>
+
       <li
         className={
           window.location.pathname === "/" ||

@@ -19,7 +19,7 @@ const About = () => (
       <Row>
         <Column
           size="md-12"
-          style={{ marginTop: "20px", marginBottom: "80px" }}
+          style={{ marginTop: "20px", marginBottom: "20px" }}
         >
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc

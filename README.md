@@ -1,64 +1,103 @@
 # Puppy Love
 
-In this activity we will work to create an entire React application from scratch, complete with routing and AJAX requests to the [Dog Ceo API](https://dog.ceo/dog-api/): an API for dog images.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Instructions
+## Table of Contents
 
-* Start by scaffolding out a new starter React app by running the following command in your terminal `npx create-react-app pupster`.
+- [Description](#description)
+- [User Story](#user-story)
+- [Features of the Application](#features-of-the-application)
+- [Preview of Puppy Love](#preview-of-puppy-love)
+- [Links](#links)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Built Using](#built-using)
+- [License](#license)
+- [Contributing](#contributing)
+- [Questions](#questions)
 
-* cd into the `pupster` directory and run the following command to install React Router and Axios:
+## Description
 
-  ```
-  npm install axios react-router-dom
-  ```
+Puppy Love is a responsive, dynamic application
 
-* **Recommended:** Add the Bootstrap and Font Awesome CDNs to your application's `index.html` file:
+the application holds three routes. the about page is A static welcome screen for visitors to the application. This page displays a photo of a random dog retrieved from the [Dog Ceo API](https://dog.ceo/dog-api/). This page contains 2 clickable buttons: one for passing or "thumbs-downing" a dog, and one for picking or "thumbs-upping" a dog. When either button is clicked, a new dog image is loaded from the API. If you "thumbs up" a dog, there is a 1 in 5 chance that the dog likes you too, and the friends count goes up by 1. This Search page allows you to search the [Dog Ceo API](https://dog.ceo/dog-api/) for all dogs by breed. After a search is made, a list of all of the results appears underneath.
 
-  ```html
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
-  ```
+Puppy Love is a React application that utilizes the Context API along with the useContext and useReducer hooks for state management. The application also utilizes the Dog Ceo API to display random dog images and search for additional dog images by breed.
 
-* Open [https://pupster.netlify.com/](https://pupster.netlify.com/) in your web browser and take a few moments to study the example application. You will be basing your Pupster app off of this example.
+## User Story
 
-  * This example contains 3 routes:
+```
+AS A user
+I WANT to search for Github users
+SO THAT I can access their bios, repositories, and other relevant information.
+```
 
-    1. `/about`: A static welcome screen for visitors to the application.
+## Features of the Application
 
-    2. `/discover`: This page displays a photo of a random dog retrieved from the [Dog Ceo API](https://dog.ceo/dog-api/). This page contains 2 clickable buttons: one for passing or "thumbs-downing" a dog, and one for picking or "thumbs-upping" a dog. When either button is clicked, a new dog image is loaded from the API. If you "thumbs up" a dog, there is a 1 in 5 chance that the dog likes you too, and the friends count goes up by 1.
+```
+GIVEN
+WHEN
+THEN
+```
 
-    3. `/search`: This page allows you to search the [Dog Ceo API](https://dog.ceo/dog-api/) for all dogs by breed. After a search is made, a list of all of the results appears underneath.
+## Preview of Puppy Love
 
-* Your Pupster app should implement each of these three pages and their basic functionality, **don't spend much time styling your app until you have completed everything else.**
+![Puppy Love Landing Page](assets/images/GithubFinderUserPage.png)
 
-* Your Pupster app should display a navigation bar that is present on every route.
+The following animations demonstrate the complete application functionality:
 
-* Begin with routing. For each route, render a different component for each page without worrying about building in any behaviors yet. Then work on implementing the most basic functionality for each page, one piece at a time.
+![Puppy Love Discover Functionality Preview]()
 
-### Bonus
+![Puppy Love Search Functionality Preview]()
 
-* Once you complete all of the basic functionality for this activity, work on adding additional styles and making it look great.
+To download the above video files of the application functionality, you may do so [here]() and [here]().
 
-### Hints
+## Links
 
-* Don't worry about styling or making things fancy at first. Just use Bootstrap classes and get the basic functionality for each page working. Get the app to work first, then come back and make it awesome.
+- [Deployed Application]()
 
-* Use the <https://dog.ceo/api/breeds/image/random> endpoint to get a random dog image.
+- [Github Repository](https://github.com/rh9891/PuppyLove)
 
-* Use the <https://dog.ceo/api/breed/hound/images> endpoint (replace "hound" with your breed of choice) endpoint to get an array of all available dog images of the selected breed.
+## Installation
 
-* See <https://dog.ceo/api/breeds/list> for a list of all available dog breeds. You can test the `/search` page by searching for any of the breeds returned by this endpoint.
+The application requires the following dependencies and/or package managers:
 
-* Don't hesitate to refer back to the earlier examples from today.
+```
+$ npm install axios react-router-dom
+```
 
-* Utilize documentation if you're still unsure about how anything works: 
+When downloaded, the application requires the input of `npm install` into the command line interface in order to download the contents of the `package.json`.
 
-  * [Axios](https://github.com/mzabriskie/axios)
-  
-  * [React Router](https://reacttraining.com/react-router/web/guides/philosophy)
+## Usage
 
-  * [React](https://facebook.github.io/react/docs/hello-world.html)
+The application can be initiated by inputting `npm start` into the command line interface and running the application on `localhost: 3000`.
 
-  * [Dog Ceo](https://dog.ceo/dog-api/)
+## Built Using
 
-* Ask for help if you get stuck!
+Listed below are the frameworks, libraries, and guides that made building this application possible:
+
+- [Axios](https://github.com/mzabriskie/axios)
+- [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+- [Dog Ceo API](https://dog.ceo/dog-api/)
+- [React](https://reactjs.org/docs/getting-started.html)
+- [React Router](https://reacttraining.com/react-router/web/guides/philosophy)
+
+## License
+
+The MIT License (MIT)
+
+Copyright (c) 2020 Romie Hecdivert
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Contributing
+
+If you would like to contribute to this repository, please contact me via [Github](https://github.com/rh9891).
+
+## Questions
+
+If you have any questions, comments, or issues regarding this application, please do not hesitate to contact me via [Github](https://github.com/rh9891).
