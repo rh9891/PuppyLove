@@ -28,14 +28,14 @@ Puppy Love is a React application that utilizes Express routing, dynamic routing
 
 ```
 AS A user
-I WANT to search for Github users
-SO THAT I can access their bios, repositories, and other relevant information.
+I WANT to discover new pups by sifting through photos
+SO THAT I can find a "match" and make new friends.
 ```
 
 ## Features of the Application
 
 ```
-GIVEN
+GIVEN a social application
 WHEN
 THEN
 ```
