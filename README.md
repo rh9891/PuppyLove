@@ -36,8 +36,14 @@ SO THAT I can find a "match" and make new friends.
 
 ```
 GIVEN a social application
-WHEN
-THEN
+WHEN I click on the button to pass or pick a dog
+THEN a new dog image is loaded.
+
+WHEN I "heart" a dog
+THEN there is a chance that I will have matched with that dog.
+
+WHEN I search for a dog by their breed
+THEN images of that dog breed will appear underneath the search form.
 ```
 
 ## Preview of Puppy Love
@@ -47,14 +53,6 @@ THEN
 ![Puppy Love Discover Page](assets/images/puppyLoveDiscoverPage.png)
 
 ![Puppy Love Search Page](assets/images/puppyLoveSearchPage.png)
-
-The following animations demonstrate the complete application functionality:
-
-![Puppy Love Discover Functionality Preview]()
-
-![Puppy Love Search Functionality Preview]()
-
-To download the above video files of the application functionality, you may do so [here]() and [here]().
 
 ## Links
 
