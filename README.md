@@ -42,7 +42,11 @@ THEN
 
 ## Preview of Puppy Love
 
-![Puppy Love Landing Page]()
+![Puppy Love Landing Page](assets/images/puppyLoveLandingPage.png)
+
+![Puppy Love Discover Page](assets/images/puppyLoveDiscoverPage.png)
+
+![Puppy Love Search Page](assets/images/puppyLoveSearchPage.png)
 
 The following animations demonstrate the complete application functionality:
 
